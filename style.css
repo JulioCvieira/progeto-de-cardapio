@@ -4,9 +4,11 @@
     padding: 0;
   }
   
-  body {
-    background: #FFEDD5;
+  body 
+  {
+    
     font-family: 'Roboto', sans-serif;
+    margin: 10px;
   }
   
   ul {
@@ -17,11 +19,13 @@
   h1, h2, h3, .price {
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
-    color: #2D2C2A;
+    color: rgba(201, 193, 193, 0.801);
   }
   
   /*HEADER*/
   header {
+    background-color: #0808089f;
+    border-radius: 100px;
     padding: 32px 0;
     text-align: center;
   }
@@ -33,11 +37,12 @@
   header p {
     font-size: 14px;
     line-height: 16px;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(201, 193, 193, 0.801);
   }
   
   header,
   section {
+    background-color: #0808089f;
     max-width: 300px;
     margin: 0 auto;
   }
@@ -50,11 +55,12 @@
   
   /*SECTION*/
   section {
+    background-color: #0808089f;
     margin-bottom: 24px;
   }
   
   section h2 {
-    background-color: #FED7AA;
+    
     padding: 8px 16px;
     text-align: center;
     margin-bottom: 24px;
@@ -63,12 +69,13 @@
   
   /*LISTA*/
   ul li {
+    
     margin-bottom: 16px;
     display: flex;
   }
   
   li .deatails {
-    max-width: 240px;
+  max-width: 240px;
   }
   
   .deatails h3 {
@@ -78,7 +85,8 @@
   }
   
   .deatails p {
-    color: rgba(0, 0, 0, 0.6);
+    
+    color: rgba(255, 255, 255, 0.808);
     font-size: 14px;
     line-height: 21px;
   }
